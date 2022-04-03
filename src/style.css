@@ -1,0 +1,22 @@
+#content nav {
+  display: flex;
+  background-color: black;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+nav::-webkit-scrollbar {
+  height: 0px;
+}
+#content .navLink {
+  display: block;
+  background-color: gray;
+  color: inherit;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+#content .navLink.selected {
+  background-color: cyan;
+}
+#content .navLink:hover {
+  color: blue;
+}
